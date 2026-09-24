@@ -2,4 +2,12 @@
 title: "Mallard Duck Movement"
 author: "GitHub Copilot"
 format: html
+execute:
+  echo: false
 ---
+
+```{r}
+#| message: false
+#| cache: true
+mallards <- readRDS("data/mallards.rds")
+```
