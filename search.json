@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "# A tibble: 73 × 5\n   month     month_num  year season gps_fixes\n   &lt;ord&gt;         &lt;dbl&gt; &lt;dbl&gt; &lt;ord&gt;      &lt;int&gt;\n 1 September         9  2007 Autumn       121\n 2 October          10  2007 Autumn       105\n 3 November         11  2007 Autumn        44\n 4 February          2  2008 Winter        11\n 5 March             3  2008 Spring       150\n 6 April             4  2008 Spring       338\n 7 May               5  2008 Spring       313\n 8 June              6  2008 Summer       339\n 9 July              7  2008 Summer       409\n10 August            8  2008 Summer       172\n# ℹ 63 more rows"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallard ducks are among the most familiar waterfowl in Europe and North America, recognizable by their iridescent green heads, warm brown bodies, and habit of feeding in shallow wetlands. Their movements often follow seasonal changes in food, water, and breeding conditions, making them especially useful for studying how animals respond to environmental variation.\nLake Constance, on the border of Germany, Switzerland, and Austria, is one of the largest freshwater lakes in Central Europe and a major stopover and breeding area for migratory birds. The lake’s wetlands and surrounding agricultural landscapes provide ideal conditions for mallards, which makes it a strong setting for tracking their daily and seasonal movements.\nThe GPS tracking data reveal repeated patterns in where these ducks move, how far they travel, and when they are most active. By following individual birds across time, researchers can see how their movements shift across months and seasons, highlighting both routine habitat use and the effect of environmental conditions on migration and local movement."
+  }
+]
