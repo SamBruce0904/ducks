@@ -1,0 +1,41 @@
+---
+title: "Mallard Duck Movement"
+author: "GitHub Copilot"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(sf)
+```
+
+```{r}
+#| cache: true
+mallards <- readRDS("data/mallards.rds")
+```
+
+```{r}
+#| message: false
+mallards |>
+  count(month, month_num, year, season, name = "gps_fixes") |>
+  arrange(year, month_num)
+```
+
+```{r}
+#| message: false
+library(ggridges)
+
+mallards |>
+  filter(speed <= 30) |>
+  ggplot(aes(x = speed, y = month, fill = season)) +
+  geom_density_ridges(alpha = 0.7, rel_min_height = 0.01) +
+  labs(
+    x = "Speed",
+    y = "Month",
+    fill = "Season"
+  ) +
+  theme_minimal()
+```
